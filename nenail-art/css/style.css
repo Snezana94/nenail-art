@@ -1,0 +1,226 @@
+/* all */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.6;
+    transition: 500ms;
+}
+
+li {
+    list-style-type: none;
+}
+
+span {
+    color: midnightblue;
+}
+
+.wrapp {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+/* header */
+header .contact {
+    text-align: right;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #bc94c0;
+    padding-right: 30px;
+}
+
+header .contact a {
+    padding-left: 30px
+}
+
+header .contact li {
+    display: inline;
+}
+
+header .contact img:hover {
+    width: 45px;
+    transition: 400ms;
+}
+
+header .contact img {
+    transition: 300ms;
+}
+
+/* navigation */
+.navigation {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding: 0px 30px;
+    position: relative;
+}
+
+.navigation .logo {
+    position: absolute;
+    left: 30px;
+}
+
+.navigation .mainMenu {
+    position: absolute;
+    right: 30px;
+}
+
+.navigation .mainMenu a {
+    color: #831b81;
+    font-size: 25px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    word-spacing: 4px;
+}
+
+/* sections */
+.sections {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    color: #432244;
+    position: relative;
+}
+
+.content {
+    padding: 30px;
+}
+
+.home {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1 {
+    font-size: 70px;
+}
+
+.home h2 {
+    color: black;
+}
+
+.aboutUsBackground {
+    background-image: url("../icon/texture.png");
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.content p {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+h4 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+h5 {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.offer li {
+    padding-top: 20px;
+}
+
+.offer strong {
+    text-decoration: underline;
+}
+
+.aboutUs, .pricelist, .gallery {
+    z-index: 1;
+}
+
+.pricelist table {
+    border-spacing: 15px;
+    text-align: left;
+}
+
+.pricelist th {
+    border-bottom: 1px solid #831b81;
+}
+
+.pricelist p {
+    color: #831b81;
+}
+
+.pricelist table {
+    margin: 50px auto;
+}
+
+.gallery img {
+    border: 5px solid #831b8155;
+    border-radius: 50%;
+}
+
+/* footer */
+footer {
+    color: white;
+    font-size: 25px;
+}
+
+footer a {
+    color: white;
+}
+
+footer .contact {
+    display: flex;
+    height: 150px;
+    background-color: #bc94c0;
+    align-items: center;
+}
+
+#kontakt .phone, #kontakt .social {
+    display: flex;
+    flex-grow: 1;
+}
+
+#kontakt .phone li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+#kontakt .social {
+    justify-content: flex-end;
+}
+
+#kontakt .social a {
+    padding-right: 30px;
+}
+
+.copyright {
+    color: #831b81;
+    font-size: 15px;
+    text-align: center;
+}
+

@@ -1,0 +1,111 @@
+@media all and (max-width: 1200px) {
+    .wrapp {
+        width: 1000px;
+    }
+
+    .navigation {
+        display: block;
+        position: unset;
+        padding: 10px;
+    }
+    
+    .navigation .logo {
+        position: unset;
+        text-align: center;
+    }
+    
+    .navigation .mainMenu {
+        position: unset;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 1020px) {
+    .wrapp {
+        width: 850px;
+    }
+
+    .navigation .mainMenu a {
+        font-size: 20px;
+        padding-left: 10px;
+        word-spacing: 2px;
+    }
+}
+
+@media all and (max-width: 870px) {
+    .wrapp {
+        width: unset;
+        margin: 0px;
+    }
+}
+
+@media all and (max-width: 720px) {
+    footer .contact {
+        display: block;
+        height: unset;
+    }
+
+    #kontakt .phone, #kontakt .social {
+        display: block;
+    }
+
+    footer .contact li {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    #kontakt .phone li {
+        padding-left: 0px;
+    }
+
+    #kontakt .social a {
+        padding-right: 0px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    header .contact {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 515px) {
+    .navigation {
+        height: unset;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navigation .mainMenu a {
+        display: block;
+        padding: 5px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .copyright {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .gallery img, .logo img {
+        width: 200px;
+    }
+
+    .contact ul {
+        display: contents;
+    }
+
+    section {
+        font-size: 20px;
+    }
+
+    .pricelist table {
+        border-spacing: 5;
+        font-size: 15px;
+    }
+
+}
